@@ -39,32 +39,38 @@
 
         if (!weight || !height) {
           document.getElementById("result").innerHTML =
-            "Please enter weight and height.";
+            "Please enter weight and height. <br> يرجى إدخال الوزن والطول.";
           return;
         }
 
         var heightInMeters = height / 100;
         var bmi = weight / (heightInMeters * heightInMeters);
-        bmi = bmi.toFixed(1);
+        bmi = parseFloat(bmi).toFixed(1);
 
         if (bmi < 18.5) {
-          document.getElementById("result").innerHTML = `${bmi} <br> نحافة`;
+          document.getElementById(
+            "result"
+          ).innerHTML = `${bmi} <br> Underweight <br> نحافة`;
         } else if (bmi >= 18.5 && bmi <= 24.9) {
-          document.getElementById("result").innerHTML = `${bmi} <br> وزن مثالي`;
+          document.getElementById(
+            "result"
+          ).innerHTML = `${bmi} <br> Normal weight <br> وزن مثالي`;
         } else if (bmi >= 25 && bmi <= 29.9) {
-          document.getElementById("result").innerHTML = `${bmi} <br> وزن زائد`;
+          document.getElementById(
+            "result"
+          ).innerHTML = `${bmi} <br> Overweight <br> وزن زائد`;
         } else if (bmi >= 30 && bmi <= 34.9) {
           document.getElementById(
             "result"
-          ).innerHTML = `${bmi} <br> سمنة درجة أولى`;
+          ).innerHTML = `${bmi} <br> Obesity Class I <br>  سمنة درجة أولى`;
         } else if (bmi >= 35 && bmi <= 39.9) {
           document.getElementById(
             "result"
-          ).innerHTML = `${bmi} <br> سمنة درجة ثانية`;
+          ).innerHTML = `${bmi} <br> Obesity Class II <br> سمنة درجة ثانية	`;
         } else {
           document.getElementById(
             "result"
-          ).innerHTML = `${bmi} <br> سمنة خطيرة`;
+          ).innerHTML = `${bmi} <br> Obesity Class III <br> سمنة خطيرة`;
         }
       });
     </script>
