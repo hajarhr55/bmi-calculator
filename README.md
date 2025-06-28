@@ -13,7 +13,7 @@ A simple and responsive web app to calculate Body Mass Index (BMI) based on user
 - Instant BMI calculation with category result
 
 ## 📷 Preview
-![screenshot](BMI Calculator.png) 
+![screenshot](BMI-Calculator.png)
 
 ## 📖 How It Works
 1. Enter your weight in kilograms.
