@@ -19,7 +19,11 @@ A simple and responsive web app to calculate Body Mass Index (BMI) based on user
 - Instant BMI calculation with category result  
 
 ---
+## 🌐 Live Demo
 
+🔗 [View the BMI Calculator Online](https://hajarhr55.github.io/bmi-calculator/)
+
+---
 ## 📷 Preview
 
 ![screenshot](BMI-Calculator.png)
@@ -60,6 +64,11 @@ A simple and responsive web app to calculate Body Mass Index (BMI) based on user
 - حساب فوري لمؤشر كتلة الجسم مع تصنيف الحالة الصحية  
 
 ---
+## 🌐 عرض مباشر
+
+🔗 [تجربة حاسبة مؤشر كتلة الجسم](https://hajarhr55.github.io/bmi-calculator/)
+---
+
 
 ## 📷 معاينة
 
